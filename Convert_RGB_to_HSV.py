@@ -53,7 +53,6 @@ while True:
 
         # need to use the unpacking operator (*) because colorsys.rgb_to_hsv takes three separate arguments (R, G, B)
         # instead of a single tuple of three values (R, G, B)
-        # https://stackoverflow.com/questions/16346841/unpacking-a-tuple-in-python
         # The function signature is: colorsys.rgb_to_hsv(r, g, b)
         hsv_color2 = colorsys.rgb_to_hsv(*rgb_dec)
 
